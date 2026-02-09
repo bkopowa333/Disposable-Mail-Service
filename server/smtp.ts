@@ -10,9 +10,10 @@ export function startSmtpServer(port: number = 2525) {
     // Accept messages for any recipient
     onRcptTo(address, session, callback) {
       // Logic to accept all emails
-      // in a real world app you might want to check the domain
-      // e.g. if (address.address.endsWith('@mydomain.com')) ...
-      return callback(); 
+      if (address.address.endsWith('@tweak.gay')) {
+        return callback();
+      }
+      return callback(new Error("Only @tweak.gay is supported"));
     },
 
     // Handle the message stream

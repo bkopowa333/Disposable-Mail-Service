@@ -25,7 +25,7 @@ A simple, receive-only disposable email service similar to YOPmail.
 
 ## Features
 
-- **Disposable Inboxes**: Access any inbox by name (e.g. `anything@yourdomain.com`).
+- **Disposable Inboxes**: Access any inbox by name (e.g. `anything@tweak.gay`).
 - **Receive-Only**: No outbound email support (prevents abuse).
 - **Auto-Cleanup**: Emails auto-deleted after 7 days.
 - **No Auth**: Completely public and open.
