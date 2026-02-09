@@ -1,0 +1,14 @@
+{
+  "name": "tweak-gay-smtp-receiver",
+  "version": "1.0.0",
+  "description": "Standalone SMTP receiver for tweak.gay disposable email service",
+  "main": "smtp.js",
+  "scripts": {
+    "start": "node smtp.js"
+  },
+  "dependencies": {
+    "mailparser": "^3.7.2",
+    "pg": "^8.13.1",
+    "smtp-server": "^3.13.6"
+  }
+}
